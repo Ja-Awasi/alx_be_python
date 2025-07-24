@@ -1,7 +1,7 @@
 # shopping_list_manager.py
 
 def display_menu():
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
@@ -22,11 +22,11 @@ def remove_item(shopping_list):
 
 def view_list(shopping_list):
     if shopping_list:
-        print("\nYour Shopping List:")
+        print("Your Shopping List:")
         for index, item in enumerate(shopping_list, start=1):
             print(f"{index}. {item}")
     else:
-        print("\nYour shopping list is currently empty.")
+        print("Your shopping list is currently empty.")
 
 def main():
     shopping_list = []
@@ -48,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
