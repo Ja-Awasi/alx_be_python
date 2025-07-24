@@ -1,6 +1,6 @@
 # shopping_list_manager.py
 
-def show_menu():
+def display_menu():
     print("\nShopping List Manager")
     print("1. Add item")
     print("2. Remove item")
@@ -31,7 +31,7 @@ def view_list(shopping_list):
 def main():
     shopping_list = []
     while True:
-        show_menu()
+        display_menu()
         choice = input("Enter your choice (1-4): ").strip()
 
         if choice == '1':
